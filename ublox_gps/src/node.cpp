@@ -380,6 +380,7 @@ void UbloxNode::getRosParams() {
 
   // NMEA parameters
   this->declare_parameter("nmea.set", false);
+  this->declare_parameter("nmea.version", false);
   this->declare_parameter("nmea.compat", false);
   this->declare_parameter("nmea.consider", false);
   this->declare_parameter("nmea.limit82", false);
