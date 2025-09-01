@@ -1,0 +1,22 @@
+/**:
+  ros__parameters:
+    device: /dev/gnss/usb
+    frame_id: gnss_link
+    config_on_startup: true
+    rate: 20.0
+    tmode3: 0
+    uart1:
+      baudrate: 460800
+    publish:
+      all: false
+      aid:
+        all: false
+      rxm:
+        all: false
+      nav:
+        clock: false
+        pvt: true
+        posecef: false
+        sat: false
+      mon:
+        all: true
